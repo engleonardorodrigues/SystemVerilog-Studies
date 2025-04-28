@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+time =           0 ns, enable = x, rst = 1, data = xx, out = xx
+time =          15 ns, enable = x, rst = 0, data = xx, out = 00
+time =          25 ns, enable = 0, rst = 1, data = xx, out = 00
+time =          35 ns, enable = 1, rst = 1, data = aa, out = aa
+time =          45 ns, enable = 0, rst = 1, data = 55, out = aa
+time =          55 ns, enable = x, rst = 0, data = xx, out = 00
+time =          65 ns, enable = 0, rst = 1, data = xx, out = 00
+time =          75 ns, enable = 1, rst = 1, data = 55, out = 55
+time =          85 ns, enable = 0, rst = 1, data = aa, out = 55
+REGISTER TEST PASS
+
+$finish called at time : 95 ns : File "/home/leonardo/PROJETO CV-QKD/04 - CURSOS/02 - LISTA DE EXERCICIOS/Lab_1/Lab_1.srcs/sim_1/new/tb_register.sv" Line 93

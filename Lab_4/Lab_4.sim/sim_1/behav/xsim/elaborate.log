@@ -1,0 +1,17 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_controller_behav xil_defaultlib.tb_controller xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [/home/leonardo/PROJETO CV-QKD/04 - CURSOS/02 - LISTA DE EXERCICIOS/Lab_4/Lab_4.srcs/sim_1/new/control_test.sv:49]
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.typedefs
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.tb_controller
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_controller_behav

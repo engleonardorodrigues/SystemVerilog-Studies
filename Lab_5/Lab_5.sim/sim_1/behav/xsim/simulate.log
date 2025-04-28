@@ -1,0 +1,16 @@
+Time resolution is 1 ps
+Time=  20.0 ns | opcode= HLT data= 37 accum= da | zero= 0 out= da
+Time=  30.0 ns | opcode= SKZ data= 37 accum= da | zero= 0 out= da
+Time=  40.0 ns | opcode= ADD data= 37 accum= da | zero= 0 out= 11
+Time=  50.0 ns | opcode= AND data= 37 accum= da | zero= 0 out= 12
+Time=  60.0 ns | opcode= XOR data= 37 accum= da | zero= 0 out= ed
+Time=  70.0 ns | opcode= LDA data= 37 accum= da | zero= 0 out= 37
+Time=  80.0 ns | opcode= STO data= 37 accum= da | zero= 0 out= da
+Time=  90.0 ns | opcode= JMP data= 37 accum= 00 | zero= 1 out= 00
+Time= 100.0 ns | opcode= ADD data= 07 accum= 12 | zero= 0 out= 19
+Time= 110.0 ns | opcode= AND data= 1f accum= 35 | zero= 0 out= 15
+Time= 120.0 ns | opcode= XOR data= 1e accum= 1d | zero= 0 out= 03
+Time= 130.0 ns | opcode= LDA data= 72 accum= 00 | zero= 1 out= 72
+Time= 140.0 ns | opcode= STO data= 00 accum= 10 | zero= 0 out= 10
+ALU TEST PASSED
+$finish called at time : 140 ns : File "/home/leonardo/PROJETO CV-QKD/04 - CURSOS/02 - LISTA DE EXERCICIOS/Lab_5/Lab_5.srcs/sim_1/new/alu_test.sv" Line 80

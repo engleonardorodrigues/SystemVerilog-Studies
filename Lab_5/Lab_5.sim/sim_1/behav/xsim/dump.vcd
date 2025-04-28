@@ -1,0 +1,47 @@
+$date
+   Thu Mar 27 11:22:35 2025
+$end
+
+$version
+  2024.2.0
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_alu $end
+$var reg 1 ! clk $end
+$var reg 8 " accum [7:0] $end
+$var reg 8 # data [7:0] $end
+$var reg 3 $ opcode $end
+$var reg 8 % out [7:0] $end
+$var reg 1 & zero $end
+$scope module dut_alu $end
+$var wire 1 ' clk $end
+$var wire 8 ( accum [7:0] $end
+$var wire 8 ) data [7:0] $end
+$var wire 3 * opcode $end
+$var reg 8 % out [7:0] $end
+$var reg 1 & zero $end
+$upscope $end
+$scope task checkit $end
+$var reg 9 + expects [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+x!
+bx "
+bx #
+b0 $
+bx %
+x&
+x'
+bx (
+bx )
+b0 *
+bx +
+$end

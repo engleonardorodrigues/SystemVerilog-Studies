@@ -1,0 +1,47 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7s100fgga676-2",
+      "gen_directory": "../../../../Lab_8.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2"
+    },
+    "design_tree": {
+      "c_accum_0": "",
+      "tcc_encoder_3gpp_0": ""
+    },
+    "components": {
+      "c_accum_0": {
+        "vlnv": "xilinx.com:ip:c_accum:12.0",
+        "ip_revision": "19",
+        "xci_name": "design_1_c_accum_0_0",
+        "xci_path": "ip/design_1_c_accum_0_0/design_1_c_accum_0_0.xci",
+        "inst_hier_path": "c_accum_0"
+      },
+      "tcc_encoder_3gpp_0": {
+        "vlnv": "xilinx.com:ip:tcc_encoder_3gpp:5.0",
+        "ip_revision": "23",
+        "xci_name": "design_1_tcc_encoder_3gpp_0_0",
+        "xci_path": "ip/design_1_tcc_encoder_3gpp_0_0/design_1_tcc_encoder_3gpp_0_0.xci",
+        "inst_hier_path": "tcc_encoder_3gpp_0"
+      }
+    },
+    "nets": {
+      "tcc_encoder_3gpp_0_rffd": {
+        "ports": [
+          "tcc_encoder_3gpp_0/rffd",
+          "c_accum_0/BYPASS"
+        ]
+      },
+      "tcc_encoder_3gpp_0_rsc1_systematic": {
+        "ports": [
+          "tcc_encoder_3gpp_0/rsc1_systematic",
+          "c_accum_0/CLK"
+        ]
+      }
+    }
+  }
+}

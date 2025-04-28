@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+time =                 1000 ns, in_a = 00, in_b = 00, sel_a = 0, out = 00
+time =                 2000 ns, in_a = 00, in_b = 00, sel_a = 1, out = 00
+time =                 3000 ns, in_a = 00, in_b = ff, sel_a = 0, out = ff
+time =                 4000 ns, in_a = 00, in_b = ff, sel_a = 1, out = 00
+time =                 5000 ns, in_a = ff, in_b = 00, sel_a = 0, out = 00
+time =                 6000 ns, in_a = ff, in_b = 00, sel_a = 1, out = ff
+time =                 7000 ns, in_a = ff, in_b = ff, sel_a = 0, out = ff
+time =                 8000 ns, in_a = ff, in_b = ff, sel_a = 1, out = ff
+REGISTER TEST PASS
+
+$finish called at time : 7500 ps : File "/home/leonardo/PROJETO CV-QKD/04 - CURSOS/02 - LISTA DE EXERCICIOS/Lab_2/Lab_2.srcs/sim_1/new/tb_multiplexor.sv" Line 72

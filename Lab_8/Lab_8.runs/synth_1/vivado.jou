@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Apr  3 09:55:07 2025
+# Process ID         : 26802
+# Current directory  : /home/leonardo/PROJETO CV-QKD/04 - CURSOS/02 - LISTA DE EXERCICIOS/Lab_8/Lab_8.runs/synth_1
+# Command line       : vivado -log alu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu.tcl
+# Log file           : /home/leonardo/PROJETO CV-QKD/04 - CURSOS/02 - LISTA DE EXERCICIOS/Lab_8/Lab_8.runs/synth_1/alu.vds
+# Journal file       : /home/leonardo/PROJETO CV-QKD/04 - CURSOS/02 - LISTA DE EXERCICIOS/Lab_8/Lab_8.runs/synth_1/vivado.jou
+# Running On         : leonardo-Precision-5860-Tower
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : Intel(R) Xeon(R) w3-2423
+# CPU Frequency      : 3098.378 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 32855 MB
+# Swap memory        : 30000 MB
+# Total Virtual      : 62855 MB
+# Available Virtual  : 54044 MB
+#-----------------------------------------------------------
+source alu.tcl -notrace
