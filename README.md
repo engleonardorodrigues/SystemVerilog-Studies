@@ -4,7 +4,7 @@ This repository contains my solutions to the course laboratories **Systemverilog
 
 The purpose of these laboratories is to explore the main features of Systemverilog language focused on both hardware modeling and functional verification.
 
-## Installing Vivivado
+## Install Vivado
 
 ### First: Creating a Symbolic Link for `libtinfo5`
 
@@ -53,6 +53,8 @@ This confirms that libtinfo.so.5 now correctly links to libtinfo.so.6
 ## Installation
 
 Download Vivado AMD Unified Installer for FPGAs & Adaptive SoCs 2024.1: Linux Self Extracting Web Installer from https://www.xilinx.com/support/download.html 
+
+<span style="color:red; font-weight:bold;">ATTENTION !!</span> This tutorial is for the version <strong>2024.1</strong> lived! If you download another version, you will need to change the version number in the commands below.
 
 Add execution permit 
 
