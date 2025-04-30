@@ -1,4 +1,4 @@
-# SystemVerilog Labs
+# SystemVerilog Studies Labs
 
 This repository contains my solutions to the course laboratories **Systemverilog for Design and Verification**.
 
