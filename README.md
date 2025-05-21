@@ -62,7 +62,7 @@ Add execution permit
 
 Start the download  and installer app 
 
-    sudo Downloads/FPGAs_AdaptiveSoCs_Unified_2024.1_0522_2023_Lin64.bin 
+    sudo bash Downloads/FPGAs_AdaptiveSoCs_Unified_2024.1_0522_2023_Lin64.bin 
 
 If you are using lates Ubuntu version, you will get this warning 
 
